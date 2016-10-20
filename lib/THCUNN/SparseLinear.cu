@@ -246,7 +246,7 @@ void THNN_CudaSparseLinear_zeroGradParameters(
   THCudaTensor_zero(state, gradBias);
 }
 
-TH_API void THNN_CudaSparseLinear_updateParameters(
+void THNN_CudaSparseLinear_updateParameters(
           THCState *state,
           THCudaTensor *weight,
           THCudaTensor *bias,

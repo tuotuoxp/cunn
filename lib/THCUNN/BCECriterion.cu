@@ -7,7 +7,7 @@
 #include <thrust/transform.h>
 #include <thrust/transform_reduce.h>
 
-const float eps = 1e-12f;
+#define eps 1e-12f
 
 struct bce_functor
 {
