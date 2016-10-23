@@ -1,6 +1,8 @@
 #ifndef THCUNN_COMMON_H
 #define THCUNN_COMMON_H
 
+#include <THC/THCApply.cuh>
+
 // CUDA: grid stride looping
 #define CUDA_KERNEL_LOOP(i, n) \
   for (int i = blockIdx.x * blockDim.x + threadIdx.x; i < (n); i += blockDim.x * gridDim.x)
