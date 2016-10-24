@@ -1,4 +1,5 @@
 #include "THCUNN.h"
+#include "common.h"
 #include <cusparse.h>
 #include <thrust/device_vector.h>
 

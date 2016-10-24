@@ -1,4 +1,5 @@
 #include "THCUNN.h"
+#include "common.h"
 #include "im2col.h"
 
 
