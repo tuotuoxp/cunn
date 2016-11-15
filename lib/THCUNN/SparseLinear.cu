@@ -70,11 +70,7 @@ void THNN_CudaHalfSparseLinear_zeroGradParameters(
   THError("THCudaHalfTensor not supported with SparseLinear");
 }
 
-<<<<<<< HEAD
-void THNN_CudaSparseLinear_updateParameters(
-=======
 void THNN_CudaHalfSparseLinear_updateParameters(
->>>>>>> upstream/master
           THCState *state,
           THCudaHalfTensor *weight,
           THCudaHalfTensor *bias,
